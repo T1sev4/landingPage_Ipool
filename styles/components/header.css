@@ -1,16 +1,17 @@
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
-    padding: 15px 100px;
+    width: 100%;
+    padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 2;
+    transition: 0.5s;
 }
-.head-menu a{
+.head-menu a {
     text-decoration: none;
     color: #42464f;
     font-size: 16px;
@@ -18,21 +19,24 @@ header{
     font-weight: 500;
     margin-right: 10px;
 }
-.active{
+.active {
     color: #42b773 !important;
-
 }
-.head-menu a:hover{
+.head-menu a:hover {
     color: #42b773;
-    transition: .3s;
+    transition: 0.3s;
 }
-.head-logo i{
+.head-logo i {
     font-size: 44px;
     color: #42b773;
     margin-right: 10px;
     display: none;
 }
-.head-logo{
+.head-logo {
     display: flex;
     align-items: center;
+}
+.scrolling {
+    background-color: #fff;
+    padding: 15px 100px;
 }
